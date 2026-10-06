@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>St. Rose | Walking with Confidence</title>
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section class="hero">
+<img class="logo" src="logo.jpg" alt="St. Rose, walking with confidence">
+<p>Jewelry, wristwatches and handmade footwear for everyone. Made in Nigeria and delivered to you.</p>
+<div class="ch"><a class="btn" id="heroWa" href="#" target="_blank" rel="noopener">Shop on WhatsApp</a><a class="btn alt" href="https://instagram.com/st_.rose" target="_blank" rel="noopener">Instagram</a><a class="btn alt" href="https://tiktok.com/@st_.rose" target="_blank" rel="noopener">TikTok</a></div>
+</section>
+<section><h2>Shop by category</h2><p class="sub">Tap a category to see what's available.</p>
+<div class="cats"><button class="cat" data-f="Jewelry"><h3>Jewelry</h3><span>Bangles, bracelets, earrings. Unisex</span></button><button class="cat" data-f="Watches"><h3>Wristwatches</h3><span>Casio and more. Unisex</span></button><button class="cat" data-f="Footwear"><h3>Footwear</h3><span>Handmade slippers and sandals. Unisex</span></button></div></section>
+<section id="admin" hidden></section>
+<section id="shop"><h2>Available now</h2><p class="sub">Add items to your cart and send one order on WhatsApp.</p>
+<div class="tools"><input id="q" type="search" placeholder="Search products" aria-label="Search products"><select id="so" aria-label="Sort"><option value="">Newest</option><option value="a">Price: low to high</option><option value="d">Price: high to low</option></select></div>
+<div class="filters" id="filters"></div><div class="grid" id="grid"></div></section>
+<section><h2>How to order</h2><div class="steps">
+<div class="box"><h3>Choose</h3><p>Pick what you like and add it to your cart.</p></div>
+<div class="box"><h3>Send your order</h3><p>Your cart becomes one WhatsApp message. You can also DM us on Instagram or TikTok.</p></div>
+<div class="box"><h3>Pay and receive</h3><p>Confirm the delivery fee, pay by transfer, and we send it to you.</p></div></div></section>
+<section id="policy"><h2>Payment, delivery and policy</h2>
+<div class="pay"><h3>Pay by transfer</h3><p>Opay</p><div class="no" id="acct">8145501016</div><p id="aname"></p><button class="btn" id="copy">Copy account number</button><p style="margin-top:10px">Send proof of payment on WhatsApp after you transfer.</p></div>
+<div class="info" style="margin-top:16px">
+<div class="box"><h3>Delivery</h3><p>We deliver within Jos and to other states. The fee depends on your location and is confirmed on WhatsApp before you pay.</p></div>
+<div class="box"><h3>Orders</h3><p>Items are sent after payment is confirmed. Items marked sold out are not available.</p></div>
+<div class="box"><h3>Wrong or damaged item</h3><p>Message us within 24 hours of delivery with a photo and we will sort it out.</p></div></div></section>
+<section><h2>Happy customers</h2><div class="rev" id="revs"></div></section>
+<section class="about"><h2>About St. Rose</h2><p>St. Rose is a small Nigerian brand in Jos. We sell jewelry, wristwatches and handmade footwear for men and women, with one idea behind it all: what you wear should help you walk with confidence.</p></section>
+<footer><h3>St. Rose</h3><p>Jos, Plateau State, Nigeria. Made in Nigeria.</p>
+<p><a href="https://instagram.com/st_.rose" target="_blank" rel="noopener">Instagram</a><a href="https://tiktok.com/@st_.rose" target="_blank" rel="noopener">TikTok</a><a id="footWa" href="#" target="_blank" rel="noopener">WhatsApp</a></p>
+<button class="btn alt" id="share" style="color:var(--bg);border-color:var(--bg)">Copy site link</button></footer>
+<button class="btn cartb" id="cartb" hidden></button>
+<div class="cart" id="cart" hidden></div>
+<a class="fab" id="fab" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">Chat</a>
+
+<script type="application/json" id="state">{"products":[{"name":"Gold Drop Earrings","price":1000,"category":"Jewelry","images":[],"options":"","sold":false},{"name":"Light Pink Bangle","price":4500,"category":"Jewelry","images":[],"options":"","sold":false},{"name":"Burgundy Bangle","price":4500,"category":"Jewelry","images":[],"options":"","sold":false},{"name":"Casio Wristwatch (Gold)","price":25000,"category":"Watches","images":[],"options":"","sold":false},{"name":"Bracelet Watch","price":12000,"category":"Watches","images":[],"options":"","sold":false},{"name":"Handmade Leather Slippers","price":8000,"category":"Footwear","images":[],"options":"39, 40, 41, 42, 43","sold":false},{"name":"Handmade Sandals","price":9500,"category":"Footwear","images":[],"options":"39, 40, 41, 42, 43","sold":false}],"reviews":[]}</script>
+<script src="script.js"></script>
+</body>
+</html>
